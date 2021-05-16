@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nguyễn Thu Trang</title>
+    <style>
+        .wrap-from {
+            background: cornflowerblue;
+            width: 200px;
+            margin: auto;
+            border-radius: 12px;
+            height: 63px;
+            padding: 15px;
+        }
+
+        #btnOke {
+            background: deeppink;
+            border: 0;
+            border-radius: 7px;
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 19px;
+            color: white;
+        }
+
+        .wrap-btn {
+            text-align: center;
+            margin: 15px 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrap-from">
+    <div class="title">Yêu anh?</div>
+    <div class="wrap-btn">
+        <input type="button" value="Vâng ạ" id="btnOke">
+    </div>
+</div>
+
+
+<script>
+
+    let btn = document.getElementById("btnOke");
+    btn.onclick = (e) => {
+        alert("Yêu em <3")
+    }
+
+
+</script>
+
+</body>
+</html>
